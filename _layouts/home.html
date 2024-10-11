@@ -1,3 +1,6 @@
+---
+---
+
 <div class="home">
     <style>
         * {
@@ -17,18 +20,15 @@
         }
     </style>
     <h1>
-        <a href="http://localhost:4000">asteria</a><br>
+        <a href="{{site.url}}">asteria</a><br>
         <div style="font-size:large;">
-        
-         <a href="http://localhost:4000/about/">home </a>
-        
-        
+        {% if page.title %}
+        {% if page.title == "home" %} <a href="{{site.url}}/about/">home </a>
+        {% else %}{{ page.title }}
+        {% endif %}
+        {% endif %}
         </div>
     </h1>
 
-  <p>in search of my future among the stars<br />
-what if I’m forever tired. too sad to make art<br />
-to show my heart free, if only to myself.<br />
-  <a href="/luna/">luna</a> &lt;3</p>
-
+  {{ content }}
 </div>
