@@ -4,4 +4,4 @@ title: art
 permalink: /art/
 ---
 
-not yet lol ;)
+not yet lol

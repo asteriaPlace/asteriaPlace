@@ -7,5 +7,6 @@ layout: home
 
 in search of my future among the stars  
 what if I'm forever tired. too sad to make art  
-to show my heart free, if only to myself.  
-&nbsp;&nbsp;[luna](/luna/) <3
+to show[ my heart free, ](/art)if only to myself.  
+  
+  &nbsp;&nbsp;[luna <3](/luna/)
