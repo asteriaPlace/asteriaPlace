@@ -4,6 +4,8 @@ title: luna
 permalink: /luna/
 ---
 I'll write this later,, 
-<br>;-;
-  
-  [go here instead](/nmokey/)
+<br>;-;   
+<br>[music recs](/music-recs.md)   
+<br>[links](/links)
+   
+<footer>please say hi luna@asteria.place</footer>
