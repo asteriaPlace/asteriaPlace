@@ -9,7 +9,9 @@
         }
 
         p {
-            padding: 15%;
+            padding-top: 15%;
+            padding-inline: 15%;
+            padding-bottom: 0%;
             text-align: center;
         }
 
@@ -25,20 +27,40 @@
             padding-inline:10px;
         }
         footer {
+            position: fixed;
             text-align: center;
-            padding: 2%;
+            bottom: 2%;
+            right: 40%;
         }
+        .asteria {
+            position: fixed;
+            text-align: center;
+            text-anchor:middle;
+            font-size: 300px;
+            bottom: -170px;
+            right: 50%;
+        }
+        ::marker {
+            color: orangered;
+            font-size: 0%;
+        }
+        .dialogueStart {
+            padding-inline: 42%;
+        }
+        details {
+            text-align: center;
+            padding-block: 10px;
+        }
+        summary {
+            background-color: #504b63;
+            padding-block: 10px;
+            font-style: italic;
+            font-weight: bold;
+        }
+        
     </style>
-    <h1>
-        <a href="/">asteria</a><br>
-        <div style="font-size:large;">
-        {% if page.title %}
-        {% if page.title == "home" %} <a href="/about/">home </a>
-        {% else %}{{ page.title }}
-        {% endif %}
-        {% endif %}
-        </div>
-    </h1>
-
+    
   {{ content }}
+  <footer style="color: #5b5769;">luna &lt;3</footer>
+  <div class = "asteria">ASTERIA</div>    
 </div>

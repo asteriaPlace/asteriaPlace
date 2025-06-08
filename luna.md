@@ -7,5 +7,4 @@ I'll write this later,,
 <br>;-;   
 <br>[music recs](/music-recs.md)   
 <br>[links](/links)
-   
-<footer>please say hi luna@asteria.place</footer>
+<p>please say hi luna@asteria.place</p>
